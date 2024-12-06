@@ -7,11 +7,35 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
 }
 
 header nav ul li {
   font-weight: 600;
   color: #fff;
+}
+
+
+/********** blogpage **********/
+.blogpage {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.blog_sub {
+  max-width: 800px;
+}
+
+.b_time {
+  font-size: 15px;
+  color: #888;
+}
+
+.b_category {
+  color: #06c;
+  border: 1px solid #06c;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 2px;
 }
