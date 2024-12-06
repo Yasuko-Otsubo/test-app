@@ -1,7 +1,6 @@
 import { posts } from '../data/posts';
 import { Link } from 'react-router-dom';
 
-
 const Home = () =>{
   return (
     <div className='my-10'>

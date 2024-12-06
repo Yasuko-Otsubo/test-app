@@ -1,19 +1,25 @@
+import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
-export const App = () => {
-   return (
-    <BrowserRouter>
+function App() {
+  return (
     <div className="App">
-      <Header />
-      <Routes>
-        <Route path='/' element={<Home />}></Route>
-      </Routes>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          課題1
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-    </BrowserRouter>
   );
 }
- 
+
+export default App;
