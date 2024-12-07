@@ -22,7 +22,6 @@ const Home = () =>{
           <p className="text-sm h-10 line-clamp-2" dangerouslySetInnerHTML={{ __html: post.content }}></p>
           </Link>
           </article>
-
       ))}
     </div>
   )  
