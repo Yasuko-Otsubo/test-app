@@ -30,13 +30,7 @@ const BlogPage = () => {
 
         ///////////////////////正常なレスポンスの場合、データの形式を確認してpostステートに保存///////////////////////
         // 'posts'キーまたは'post'キーが存在するか確認
-        if (data.posts && Array.isArray(data.posts)) {
-          setPost(data.posts[0]); // 'posts'が配列の場合
-        } else if (data.post) {
           setPost(data.post); // 'post'キーの場合
-        } else {
-          throw new Error("レスポンスに 'posts' または 'post' が含まれていません。");
-        }
         } catch (error) {
           ///////////////////////異常がある場合は、エラーメッセージをコンソールに出力し、errorステートに保存///////////////////////
           console.error("データ取得中のエラー:", error.message);
