@@ -18,7 +18,7 @@ header nav ul li {
 
 
 /********** blogpage **********/
-.blogpage {
+.blogpage, .formpage {
   width: 800px;
   margin: 50px auto;
 }
@@ -39,3 +39,5 @@ header nav ul li {
   font-size: 12px;
   border-radius: 2px;
 }
+
+

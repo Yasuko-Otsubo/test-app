@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { posts } from "../data/posts";
+//import { posts } from "../data/posts";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
             <Link to="/">Blog</Link>
           </li>
           <li>
-            <Link to={`/post/${posts.id}`}>お問い合わせ</Link>
+            <Link to="/form_page">お問い合わせ</Link>
           </li>
         </ul>
       </nav>
