@@ -14,7 +14,7 @@ export const App = () => {
           <Route path='/' element={<Home />} />
           {/* id を動的に受け取るために :id と記述 */}
           <Route path='/posts/:id' element={<BlogPage />} />
-          <Route path="/FormPage" element={<FormPage />} />
+          <Route path="/form_page" element={<FormPage />} />
 
         </Routes>
       </Router>

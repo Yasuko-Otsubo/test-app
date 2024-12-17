@@ -11,7 +11,7 @@ const Header = () => {
             <Link to="/">Blog</Link>
           </li>
           <li>
-            <Link to="/formPage">お問い合わせ</Link>
+            <Link to="/form_page">お問い合わせ</Link>
           </li>
         </ul>
       </nav>
