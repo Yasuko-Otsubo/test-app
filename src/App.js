@@ -1,6 +1,6 @@
 import './App.css';
 import BlogPage from './components/BlogPage';
-import FormPage from './components/FormPage';
+import FormPage from './FormPage/index';
 import Header from './components/Header';
 import Home from './components/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
